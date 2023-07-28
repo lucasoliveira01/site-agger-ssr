@@ -1,0 +1,137 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Asap */
+@font-face {
+  font-family: "Asap Regular";
+  src: local("Asap Regular"), url("../fonts/Asap/static/Asap-Regular.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Asap Medium";
+  src: local("Asap Medium"), url("../fonts/Asap/static/Asap-Medium.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Asap SemiBold";
+  src: local("Asap SemiBold"), url("../fonts/Asap/static/Asap-SemiBold.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Asap Bold";
+  src: local("Asap Bold"), url("../fonts/Asap/static/Asap-Bold.ttf");
+  font-display: swap;
+}
+
+/* Open Sans */
+
+@font-face {
+  font-family: "K2D Thin";
+  src: local("K2D Thin"), url("../fonts/K2D/K2D-Thin.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "K2D ExtraLight";
+  src: local("K2D ExtraLight"), url("../fonts/K2D/K2D-ExtraLight.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "K2D Light";
+  src: local("K2D Light"), url("../fonts/K2D/K2D-Light.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "K2D Regular";
+  src: local("K2D Regular"), url("../fonts/K2D/K2D-Regular.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "K2D Medium";
+  src: local("K2D Medium"), url("../fonts/K2D/K2D-Medium.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "K2D SemiBold";
+  src: local("K2D SemiBold"), url("../fonts/K2D/K2D-SemiBold.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "K2D Bold";
+  src: local("K2D Bold"), url("../fonts/K2D/K2D-Bold.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "K2D ExtraBold";
+  src: local("K2D ExtraBold"), url("../fonts/K2D/K2D-ExtraBold.ttf");
+  font-display: swap;
+}
+
+/* Style */
+html {
+  scroll-behavior: smooth;
+  font-size: 15px;
+  overflow-x: hidden;
+}
+
+@media (max-width: 900px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 550px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  background: #ffd526;
+}
+
+::selection {
+  background: #ffd526;
+}
+
+.MuiInputLabel-root {
+  color: #000;
+}
+
+.MuiInputLabel-root {
+  color: #000;
+}
+
+/* RD STATION FORM  */
+
+#form-1-drop-site-accc019797d4d17a0e9c h1,
+#form-1-drop-site-accc019797d4d17a0e9c button,
+#form-1-drop-site-accc019797d4d17a0e9c input,
+#form-1-drop-site-accc019797d4d17a0e9c strong {
+  transition: all 0.2s ease;
+  font-family: "Asap Regular" !important;
+}
+
+#form-1-drop-site-accc019797d4d17a0e9c input {
+  outline: none !important;
+}
+
+#form-1-drop-site-accc019797d4d17a0e9c button:hover {
+  color: #fff;
+}

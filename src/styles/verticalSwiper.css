@@ -1,0 +1,32 @@
+.swiper-wrapper{
+    align-items: center;
+    align-content: flex-start;
+}
+
+.swiper-slide{
+    width: fit-content;
+    height: auto;
+    margin-top: 30px !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+@media (max-width: 1024px){
+    .swiper-wrapper{
+        align-items: center;
+        align-content: center;
+    }
+}
+
+/* planoMobile */
+@media (max-width: 800px){
+    .swiper-wrapper{
+        flex-wrap: nowrap !important;
+    }
+}
+
+@media (max-width: 500px){
+    .swiper-slide{
+    margin-left: 1rem !important;}
+}
